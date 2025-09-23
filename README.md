@@ -1,6 +1,6 @@
 # How to display and export DateTimeColumn using exact separators regardless of system language in WPF DataGrid?
 
-In [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid), [DateTimeColumn](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridDateTimeColumn.html) display custom formats differently depending on the system language, such as German vs English. This occurs because .NET adheres to the system’s culture settings, including date and time separators, even when a **custom format** pattern is defined. This behavior is by design.
+In [WPF DataGrid](https://www.syncfusion.com/wpf-controls/datagrid) (SfDataGrid), [DateTimeColumn](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Grid.GridDateTimeColumn.html) will display custom formats differently depending on the system language, such as German vs English. This occurs because .NET adheres to the system’s culture settings, including date and time separators, even when a **custom format** pattern is defined. This behavior is by design.
 
 To ensure consistent display of date and time separators across different system languages or regions, separator characters must be enclosed in single quotes (') within the format pattern.
 
